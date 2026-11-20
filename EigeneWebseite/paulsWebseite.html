@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Pauls Website</title>
+  <link rel="stylesheet" href= "layout.css">
+    <link rel="stylesheet" href="styles.css">
+  <style>
+    .greentext {
+        color: green;
+    }
+    #divfont20 {
+        font-size: 20px;
+    }
+    #input2 {
+        background-color: yellow    ;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>Formatierung inline direkt auf das Element angewendet</p>
+    <p style="color: blue;">Absatz mit blauer Schrift</p>
+    <div style="font-size: 16px;">Bereich mit font-size 16px</div>
+    <input style="width: 180px; background-color: blue;" placeholder="Input mit blauem Hintergrund">
+  </div>
+  <hr>
+  <div>
+    <p>Formatierung intern, mit Hilfe von selektoren</p>
+    <p class="greentext">Absatz in grüner Schrift.</p>
+    <div id="divfont20">Bereich mit font-size 20px</div>
+    <input id="input2" type="text" style="width: 180px;" placeholder="Input mit gelbem Hintergrund">
+  </div>
+  <hr>
+  <div>
+    <p>Formatierung extern, mit Hilfe von selektoren</p>
+    <p class="redtext">Absatz in roter Schrift.</p>
+    <section id="sectionfont24">Bereich mit font-size 24px</section>
+    <input id="input3" type="number" style="width: 210px;" placeholder="Input mit greenyellow Hintergrund">
+  </div>
+</body>
+</html>
